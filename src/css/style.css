@@ -1,0 +1,187 @@
+/* ---ОБНУЛЕНИЕ--- */
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-style: 100%;
+   line-height: 1;
+   font-style: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style-type: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-style: inherit;
+   font-weight: 400;
+   font-family: Yeseva One, serif;
+}
+
+button:hover {
+   box-shadow: 0 0 10px 0 #b1b1b1 inset, 0 0 20px 2px #b1b1b1;
+}
+
+/* ---BODY--- */
+
+body {
+   margin: 0;
+   text-align: center;
+}
+
+header {
+   margin: 0 auto;
+   width: 431px;
+   color: rgb(78, 200, 237);
+}
+
+.info__container {
+   display: flex;
+   justify-content: space-between;
+   background-color: #4ec8ed;
+   margin: 0 auto;
+   margin-top: -3px;
+   height: 100px;
+   width: 350px;
+   padding: 5px;
+   gap: 10px;
+   border-radius: 0px 0px 10px 10px;
+
+}
+
+.score {
+
+   width: 150px;
+   padding: 10px;
+   border: 2px solid rgb(238, 231, 172);
+   border-radius: 10px;
+   width: 95px;
+}
+
+.btn {
+
+   font-family: 'titan One';
+   font-size: 25px;
+
+   background-color: #d7d590;
+   height: 50px;
+   margin-top: 20px;
+   border-radius: 10px;
+   padding: 5px;
+   color: rgb(20, 100, 170);
+
+}
+
+.legend {
+
+   font-family: 'roboto';
+   font-size: 15px;
+}
+
+.sc {
+   margin-top: 8px;
+   font-family: 'titan One';
+   font-size: 30px;
+   color: rgb(24, 151, 49);
+}
+
+#game {
+   border-radius: 10px 10px 0px 0px;
+
+}
+
+.anykey {
+
+   display: flex;
+
+   width: 150px;
+   padding: 10px;
+   border: 2px solid rgb(238, 231, 172);
+   border-radius: 10px;
+   width: 95px;
+
+   font-family: 'titan One';
+   font-size: 15px;
+   text-transform: uppercase;
+   color: rgb(24, 151, 49);
+
+   align-items: center;
+
+
+}
+
+.hidden {
+
+   display: none;
+}
